@@ -1,0 +1,31 @@
+{
+  "name": "Warehouse App",
+  "version": "0.0.0",
+  "authors": [
+    "Xitstrategies <morganryerheimbeck@gmail.com>"
+  ],
+  "description": "track your goods the easy way",
+  "main": "xit.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "xitStrategies",
+    "warehousing"
+  ],
+  "license": "N",
+  "homepage": "www.xit-strategies.net",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "canjs": "~2.1.3"
+  }
+}
