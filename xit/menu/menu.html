@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>xit/menu</title>
+    <style type='text/css'>
+        body {font-family: verdana}
+    </style>
+</head>
+<body>
+<script type='text/javascript'>
+    steal(
+            'xit/beer/create',
+            'xit/models/beer.js',
+            'xit/models/fixtures',
+            function(BeerCreate, Beer){
+
+                new BeerCreate('#create');
+                Beer.bind('created', function(ev, beer){
+                    $('<div>').html("<h3>"+beer.name+"</h3><p>"+beer.description+"</p>")
+                            .appendTo( $('#beers') )
+                })
+
+            })
+</script>
+</body>
+</html>
