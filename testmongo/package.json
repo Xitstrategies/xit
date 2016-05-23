@@ -1,0 +1,17 @@
+{
+  "name": "testmongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "can": "^2.3.23",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.18",
+    "steal": "^0.16.9"
+  }
+}
